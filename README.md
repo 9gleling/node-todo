@@ -1,10 +1,14 @@
 
 # 설명
 ```
-cd node-todo
 npm install
 npm start
 ```
+
+`src/server.js` initializing component
+`service.js, dao.js` db handling
+`src/libs/success.js` 성공 success response format return 실패 error middleware 전달
+`src/middlewares/exceptions.js` not found 에러 exception 정의
 
 # Rest API
 * user
