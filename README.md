@@ -1,6 +1,7 @@
 
 # 설명
 ```
+cd node-todo
 npm install
 npm start
 ```
@@ -68,10 +69,10 @@ postman 사용 `request body raw json type`
 ```
 
 # 사용법
-`POST /api/user` 리턴 받은 토큰을 postman Authorization Bearer Token 등록
-`POST /api/todo` todo 생성
-`GET /api/todo` todo 리스트 보기
-`GET /api/todo/:todoId` todoId로 todo 조회
-`PATCH /api/todo/:todoId` todo 상태 변경
-`DELETE /api/todo/:todoId` todo 삭제
+* `POST /api/user` 리턴 받은 토큰을 postman Authorization Bearer Token 등록
+* `POST /api/todo` todo 생성
+* `GET /api/todo` todo 리스트 보기
+* `GET /api/todo/:todoId` todoId로 todo 조회
+* `PATCH /api/todo/:todoId` todo 상태 변경
+* `DELETE /api/todo/:todoId` todo 삭제
 
